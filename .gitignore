@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+datasets/cifar.python/cifar-10-batches-py/
+
+datasets/cifar.python/cifar-100-python/
+
+datasets/cifar.python/ImageNet16/
+
+datasets/cifar/cifar-10-batches-py/
+
+*.pth
