@@ -2,19 +2,19 @@
 
 This repository contains code the paper, [EPE-NAS](https://arxiv.org/abs/).
 
-## Setup
-# Datasets
+# Setup
+## Datasets
 1. Download the [datasets](https://drive.google.com/drive/folders/1L0Lzq8rWpZLPfiQGd6QR8q5xLV88emU7).
 
-# NAS-Bench-201
+## NAS-Bench-201
 2. Download [NAS-Bench-201](https://drive.google.com/file/d/16Y0UwGisiouVRxW-W5hEtbxmcHw_0hF_/view).
 
-# Requirements
+## Requirements
 3. Install the requirements in a conda environment with `conda env create -f environment.yml`.
 
 We also refer the reader to instructions in the official [NAS-Bench-201 README](https://github.com/D-X-Y/NAS-Bench-201).
 
-## Reproducing our results
+# Reproducing our results
 
 To reproduce our results:
 
@@ -33,14 +33,13 @@ Each command will finish by calling `process_results.py`, which will print a tab
 | Ours (N=1000)|            206.23 | 87.87 +- 0.85    | 91.31 +- 1.69     | 69.44 +- 0.83     | 69.58 +- 0.83      | 41.86 +- 2.33          | 41.84 +- 2.06           |
 
 
-
 The code is licensed under the MIT licence.
 
-## Acknowledgements
+# Acknowledgements
 
-This repository makes liberal use of code from the [AutoDL](https://github.com/D-X-Y/AutoDL-Projects) library. We also rely on [NAS-Bench-201](https://github.com/D-X-Y/NAS-Bench-201).
+This repository makes liberal use of code from the [AutoDL](https://github.com/D-X-Y/AutoDL-Projects) library, [NAS-Bench-201](https://github.com/D-X-Y/NAS-Bench-201) and [NAS-WOT](https://github.com/BayesWatch/nas-without-training). We are grateful to the authors for making the implementations publicly available.
 
-## Citing us
+# Citing us
 
 If you use or build on our work, please consider citing us:
 
