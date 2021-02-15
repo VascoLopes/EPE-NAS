@@ -5,17 +5,19 @@ This repository contains code the paper, [EPE-NAS](https://arxiv.org/abs/).
 # Setup
 ## Datasets
 1. Download the [datasets](https://drive.google.com/drive/folders/1L0Lzq8rWpZLPfiQGd6QR8q5xLV88emU7).
+1.1 Place the folders in ~path_to_epenas/datasets/
 
 ## NAS-Bench-201
-2. Download [NAS-Bench-201](https://drive.google.com/file/d/16Y0UwGisiouVRxW-W5hEtbxmcHw_0hF_/view).
+2. Download [NAS-Bench-201](https://drive.google.com/file/d/16Y0UwGisiouVRxW-W5hEtbxmcHw_0hF_/view) ([smaller version](https://drive.google.com/open?id=1SKW0Cu0u8-gb18zDpaAGi0f74UdXeGKs)).
+2.1 Place the .pth file in ~path_to_epenas/datasets/
+
+We also refer the reader to instructions in the official [NAS-Bench-201 README](https://github.com/D-X-Y/NAS-Bench-201).
 
 ## Requirements
 3. Install the requirements in a conda environment with `conda env create -f environment.yml`.
 
-We also refer the reader to instructions in the official [NAS-Bench-201 README](https://github.com/D-X-Y/NAS-Bench-201).
 
 # Reproducing our results
-
 To reproduce our results:
 
 ```
