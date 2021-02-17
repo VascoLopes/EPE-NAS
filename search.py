@@ -109,6 +109,7 @@ def eval_score_perclass(jacob, labels=None, n_classes=10):
     return score
 
 
+# NAS-WOT method, for comparison
 def eval_score(jacob, labels=None, n_classes=10):
 
     corrs = np.corrcoef(jacob)
@@ -190,7 +191,7 @@ for N in runs:
             jacobs = jacobs[0:args.evaluate_size, :]
 
         try:
-            s = eval_score(jacobs, None) #original
+            s = eval_score_perclass(jacobs, None) #original
 
             
         except Exception as e:
