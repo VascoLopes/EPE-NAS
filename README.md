@@ -1,6 +1,6 @@
-# [EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search]()
+# [EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search](https://arxiv.org/abs/2102.08099)
 
-This repository contains code the paper, [EPE-NAS](https://arxiv.org/abs/).
+This repository contains code the paper, [EPE-NAS](https://arxiv.org/abs/2102.08099).
 
 # Setup
 ## Datasets
@@ -48,12 +48,12 @@ This repository makes liberal use of code from the [AutoDL](https://github.com/D
 If you use or build on our work, please consider citing us:
 
 ```bibtex
-@misc{epenasLopes2021,
-    title={EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search},
-    author={Vasco Lopes and Saeid Alirezazadeh and Luís A. Alexandre},
-    year={2021},
-    eprint={},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@misc{lopes2021epenas,
+      title={EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search}, 
+      author={Vasco Lopes and Saeid Alirezazadeh and Luís A. Alexandre},
+      year={2021},
+      eprint={2102.08099},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
