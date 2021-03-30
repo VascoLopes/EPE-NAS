@@ -16,7 +16,7 @@ This repository contains code the paper, [EPE-NAS](https://arxiv.org/abs/2102.08
 We also refer the reader to instructions in the official [NAS-Bench-201 README](https://github.com/D-X-Y/NAS-Bench-201).
 
 ## Requirements
-3. Install the requirements in a conda environment with `conda env create -f environment.yml`.
+3. Install the requirements in a conda environment with `conda env create -f environment_epenas.yml`.
 
 
 # Reproducing our results
