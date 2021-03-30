@@ -191,9 +191,8 @@ for N in runs:
             jacobs = jacobs[0:args.evaluate_size, :]
 
         try:
-            s = eval_score_perclass(jacobs, None) #original
+            s = eval_score_perclass(jacobs, targets)
 
-            
         except Exception as e:
             print(e)
             s = np.nan
