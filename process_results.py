@@ -66,7 +66,7 @@ for n_samples in [10, 100, 500,1000]:#, 100, 500, 1000]:
             time = mean(full_scores['times'])
             time = f"{time:.2f}"
             #print(full_scores['train_time']/60/60/24)
-            train_time = f"{(full_scores['train_time']/60/60/24):.2f}"
+            #train_time = f"{(full_scores['train_time']/60/60/24):.2f}"
         accs = []
         for n in range(args.n_runs):
             acc = full_scores[acc_type][n]
@@ -83,10 +83,10 @@ for n_samples in [10, 100, 500,1000]:#, 100, 500, 1000]:
     imagenet_val  = f"{mean(dataset_top1s['ImageNet16-120 (val)']):.2f} +- {std(dataset_top1s['ImageNet16-120 (val)']):.2f}"
     imagenet_test = f"{mean(dataset_top1s['ImageNet16-120 (test)']):.2f} +- {std(dataset_top1s['ImageNet16-120 (test)']):.2f}"
 
-    df.append([method, train_time, time, cifar10_val, cifar10_test, cifar100_val, cifar100_test, imagenet_val, imagenet_test])
-    #df.append([method, time, cifar10_val, cifar10_test, cifar100_val, cifar100_test, imagenet_val, imagenet_test])
+    #df.append([method, train_time, time, cifar10_val, cifar10_test, cifar100_val, cifar100_test, imagenet_val, imagenet_test])
+    df.append([method, time, cifar10_val, cifar10_test, cifar100_val, cifar100_test, imagenet_val, imagenet_test])
 
 
-df = pd.DataFrame(df, columns=['Method', 'Train time (days)', 'Search time (s)','CIFAR-10 (val)','CIFAR-10 (test)','CIFAR-100 (val)','CIFAR-100 (test)','ImageNet16-120 (val)','ImageNet16-120 (test)' ])
+df = pd.DataFrame(df, columns=['Method', 'Search time (s)','CIFAR-10 (val)','CIFAR-10 (test)','CIFAR-100 (val)','CIFAR-100 (test)','ImageNet16-120 (val)','ImageNet16-120 (test)' ])
 
 print(tabulate.tabulate(df.values,df.columns, tablefmt="pipe"))
