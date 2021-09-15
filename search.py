@@ -14,7 +14,7 @@ from sklearn.preprocessing import normalize
 import matplotlib.pyplot as plt
 
 
-parser = argparse.ArgumentParser(description='NAS Without Training')
+parser = argparse.ArgumentParser(description='EPE-NAS')
 parser.add_argument('--data_loc', default='./datasets/cifar', type=str, help='dataset folder')
 parser.add_argument('--api_loc', default='./datasets/NAS-Bench-201-v1_0-e61699.pth',
                     type=str, help='path to API')
