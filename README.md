@@ -48,12 +48,10 @@ This repository makes liberal use of code from the [AutoDL](https://github.com/D
 If you use or build on our work, please consider citing us:
 
 ```bibtex
-@misc{lopes2021epenas,
-      title={EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search}, 
-      author={Vasco Lopes and Saeid Alirezazadeh and Luís A. Alexandre},
-      year={2021},
-      eprint={2102.08099},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{lopes2021epe,
+  title={EPE-NAS: Efficient Performance Estimation Without Training for Neural Architecture Search},
+  author={Lopes, Vasco and Alirezazadeh, Saeid and Alexandre, Lu{\'\i}s A},
+  booktitle={30th International Conference on Artificial Neural Networks (ICANN 2021)},
+  year={2021}
 }
 ```
